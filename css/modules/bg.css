@@ -1,0 +1,5 @@
+.page__bg {
+    height: 518px;
+    background: no-repeat center / cover url('../../images/header/04.png');
+    margin-top: 118px;
+}

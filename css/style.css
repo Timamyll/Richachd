@@ -9,6 +9,7 @@
 @import url(./modules/parner.css);
 @import url(./modules/ready.css);
 @import url(./modules/footer.css);
+@import url(./modules/bg.css);
 * {
     padding: 0;
     margin: 0;
@@ -48,10 +49,4 @@ html {
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
-}
-
-.page__bg {
-    height: 518px;
-    background: no-repeat cover url(../images/header/0.png);
-    margin-top: 118px;
 }
