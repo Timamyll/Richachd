@@ -10,6 +10,9 @@
 @import url(./modules/ready.css);
 @import url(./modules/footer.css);
 @import url(./modules/bg.css);
+
+/* @import 'path'; */
+
 * {
     padding: 0;
     margin: 0;
