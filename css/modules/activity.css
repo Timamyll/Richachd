@@ -1,0 +1,37 @@
+.page__activity {}
+
+.container {}
+
+.activity__body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 159px;
+    flex-wrap: wrap;
+}
+
+.activity__box {
+    text-align: center;
+}
+
+.activit__imgs {}
+
+.activit__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.activit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    text-align: center;
+    color: #6B6B6B;
+    margin-top: 17px;
+    max-width: 371px;
+}

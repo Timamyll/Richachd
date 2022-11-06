@@ -1,0 +1,14 @@
+.page__partner {}
+
+.container {}
+
+.partner__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 125px;
+}
+
+.parner__img {}

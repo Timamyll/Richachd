@@ -1,0 +1,99 @@
+.footer__page {
+    background: no-repeat center / cover url(../../images/footer/Rectangle.png);
+}
+
+.container {}
+
+.footer__body {
+    text-align: center;
+}
+
+.footer__box {}
+
+.footer__title {
+    padding-top: 129px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    text-align: center;
+    color: #6B6B6B;
+    padding-bottom: 40px;
+}
+
+.footer__inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    width: 333px;
+    border-radius: 3px 0px 0px 3px;
+    height: 62px;
+}
+
+.footer__buttoms {
+    padding: 22px 40px;
+    background: #FC0A7E;
+    cursor: pointer;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.footer__box-box {}
+
+.footer__logo {
+    padding-top: 146px;
+}
+
+.footer__imgs {}
+
+.footer__link {
+    padding-top: 29px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer__item {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+    text-align: center;
+    color: #6B6B6B;
+    padding-bottom: 26px;
+}
+
+@media (max-width: 560px) {
+    .footer__inputs {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .footer__input {
+        width: 100%;
+    }
+    .footer__logo {
+        padding-top: 0;
+    }
+    .footer__title {
+        font-size: 30px;
+    }
+}

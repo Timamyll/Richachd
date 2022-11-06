@@ -1,0 +1,38 @@
+.page__rezult {}
+
+.container {}
+
+.rezult__body {
+    display: flex;
+    gap: 141px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 160px;
+    align-items: center;
+}
+
+.rezult__box {}
+
+.rezlut__title {
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 90px;
+    /* identical to box height, or 153% */
+    text-align: center;
+    color: #333333;
+}
+
+.rezult__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 1000px) {
+    .rezult__body {
+        gap: 50px;
+    }
+}

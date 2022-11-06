@@ -1,0 +1,57 @@
+@import url(./modules/header.css);
+@import url(./modules/hamburger.css);
+@import url(./modules/nullam.css);
+@import url(./modules/fiuti.css);
+@import url(./modules/activity.css);
+@import url(./modules/rezult.css);
+@import url(./modules/sum.css);
+@import url(./modules/nead.css);
+@import url(./modules/parner.css);
+@import url(./modules/ready.css);
+@import url(./modules/footer.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html {
+    font-family: 'Gothic A1';
+}
+
+.container {
+    max-width: 1335px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.page__bg {
+    height: 518px;
+    background: no-repeat center / cover url(../../images/header/04.png);
+    margin-top: 118px;
+}

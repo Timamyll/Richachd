@@ -1,0 +1,154 @@
+    .page__nead {}
+    
+    .container {}
+    
+    .nead__body {
+        margin-top: 160px;
+    }
+    
+    .nead__box-body {}
+    
+    .nead__box-body {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .naed__imgs {
+        text-align: center;
+    }
+    
+    .nead__img {}
+    
+    .nead__box {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nead__text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+        /* or 167% */
+        text-align: center;
+        color: #6B6B6B;
+        max-width: 700px;
+    }
+    
+    .nead__addbort {
+        display: flex;
+        gap: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .nead__add {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+        text-align: center;
+        color: #6B6B6B;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .nead__bort {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+        text-align: center;
+        color: #6B6B6B;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .nead__bort:hover {
+        font-weight: 700;
+    }
+    
+    .nead__add:hover {
+        font-weight: 700;
+    }
+    
+    .neade__hr {
+        text-align: center;
+    }
+    
+    #slick-slide-control00 {
+        text-decoration: none;
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 7px;
+        height: 7px;
+        padding: 5px;
+        cursor: pointer;
+        color: rgb(0 0 0 / 0%);
+        border: 0;
+        outline: none;
+        border-radius: 50%;
+        background: rgba(34, 34, 34, 0.4);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    #slick-slide-control01 {
+        text-decoration: none;
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 7px;
+        height: 7px;
+        padding: 5px;
+        cursor: pointer;
+        color: rgb(0 0 0 / 0%);
+        border-radius: 50%;
+        border: 0;
+        outline: none;
+        background: rgba(34, 34, 34, 0.4);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    #slick-slide-control01:hover,
+    #slick-slide-control00:hover {
+        background: black;
+    }
+    
+    .slick-dots {
+        position: absolute;
+        top: 1;
+        top: 237px;
+        /* bottom: -211px; */
+        gap: 14px;
+        display: flex;
+        padding-top: 50px;
+    }
+    
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+    
+    .nead__img {
+        margin-bottom: 25px;
+    }
+    
+    @media (max-width: 700px) {
+        .nead__text {
+            font-size: 18px;
+        }
+        .nead__body {
+            margin-top: 25px;
+        }
+    }
+    
+    @media (max-width: 442px) {
+        .nead__text {
+            font-size: 14px;
+        }
+        .slick-dots {
+            margin-top: 89px;
+        }
+    }

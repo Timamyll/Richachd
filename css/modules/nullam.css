@@ -1,0 +1,53 @@
+.page__nullam {
+    /* height: 903px; */
+    background: no-repeat center / cover url(../../images/nullam/01.png);
+}
+
+.container {}
+
+.nullam__box {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hullam__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    margin-bottom: 30px;
+}
+
+.nullam__title {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    /* or 126% */
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 607px;
+}
+
+.nullam__img {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1263px) {
+    .nullam__imgs {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1263px) {
+    .nullam__title {
+        font-size: 24px;
+    }
+}
